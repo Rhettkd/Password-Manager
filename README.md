@@ -1,4 +1,5 @@
 Rhett's Password Manager Readme
+
 Overview
 This Python script provides a simple graphical user interface (GUI) for managing passwords. It allows users to store, update, and retrieve login information for various websites and services securely. The script uses the tkinter library for the GUI, json for data storage, and pyperclip for copying passwords to the clipboard.
 
