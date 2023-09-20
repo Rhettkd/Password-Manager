@@ -1,0 +1,2 @@
+pyinstaller --onefile Rhetts_Password_Manager.py
+pyinstaller --onefile --hidden-import=PIL --hidden-import=tkinter Rhetts_Password_Manager.py
