@@ -17,13 +17,9 @@ Password Retrieval: Retrieve stored login information for a specific website and
 Installation and Requirements
 
 To run this script, you need to have Python 3 installed on your system. Additionally, you'll need to install the following Python libraries:
-
 tkinter: A standard Python interface to the Tk GUI toolkit.
-
 Pillow (PIL): A Python Imaging Library used for displaying the logo image.
-
 pyperclip: A cross-platform clipboard module for copying passwords to the clipboard.
-
 You can install these dependencies using pip:
 
 pip install pillow pyperclip
