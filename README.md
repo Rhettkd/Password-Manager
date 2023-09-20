@@ -1,9 +1,11 @@
 Rhett's Password Manager Readme
 
 Overview
+
 This Python script provides a simple graphical user interface (GUI) for managing passwords. It allows users to store, update, and retrieve login information for various websites and services securely. The script uses the tkinter library for the GUI, json for data storage, and pyperclip for copying passwords to the clipboard.
 
 Features
+
 Password Generation: You can generate strong and random passwords with the click of a button.
 
 Password Storage: Store website URLs, email addresses, and passwords securely in a JSON file named data.json.
@@ -13,13 +15,17 @@ Password Update: Change the password for a website and optionally generate a new
 Password Retrieval: Retrieve stored login information for a specific website and copy the password to the clipboard.
 
 Installation and Requirements
+
 To run this script, you need to have Python 3 installed on your system. Additionally, you'll need to install the following Python libraries:
 
 tkinter: A standard Python interface to the Tk GUI toolkit.
+
 Pillow (PIL): A Python Imaging Library used for displaying the logo image.
+
 pyperclip: A cross-platform clipboard module for copying passwords to the clipboard.
 
 You can install these dependencies using pip:
+
 pip install pillow pyperclip
 
 Usage
@@ -38,13 +44,18 @@ Usage
 7. If you want to copy the password to the clipboard, click "Yes" when prompted.
 
 File Structure
+
 password_manager.py: The main Python script.
+
 data.json: A JSON file for storing website login information.
+
 RPM.ico: An icon file for the application window.
+
 logo.png: A logo image displayed in the GUI.
 
 Notes
 Ensure that you keep the data.json file in the same directory as the script to store and retrieve passwords.
+
 The application's icon (RPM.ico) and logo (logo.png) should also be in the script's directory.
 
 Author
@@ -57,6 +68,7 @@ Feel free to customize and enhance this script as needed for your personal requi
 
 Future Features (Planned Enhancements)
 1. Encryption
+
 Currently, the Password Manager script stores passwords in a plain text JSON file (data.json). To enhance security and protect sensitive information, future versions of the Password Manager may implement encryption. This will ensure that stored passwords are encrypted and can only be decrypted with a secure passphrase or key. The encryption feature could include:
 
 AES Encryption: Implementing Advanced Encryption Standard (AES) encryption to secure the stored passwords.
@@ -70,6 +82,7 @@ Key Derivation: Using key derivation functions (such as PBKDF2) to derive encryp
 Encryption Algorithms: Allowing users to choose from different encryption algorithms and key lengths for added flexibility.
 
 2. Standalone .exe File
+   
 To make the Password Manager more accessible to non-technical users and those on Windows systems, future versions may include a standalone executable (.exe) file. Creating a standalone .exe file can simplify the installation process and eliminate the need for users to have Python and additional dependencies installed. This can be achieved with tools like PyInstaller or cx_Freeze.
 
 Steps for creating a standalone .exe file:
@@ -79,6 +92,7 @@ Include the necessary icon and logo files in the packaged application.
 Provide clear instructions for users on how to run the .exe file on their Windows machines.
 
 3. Password Strength Meter
+   
 Enhancing password security is crucial. Future versions of the Password Manager may include a password strength meter that evaluates the strength of generated or entered passwords. This feature could include:
 
 Password Complexity Analysis: Analyzing passwords for complexity by checking for a mix of uppercase letters, lowercase letters, numbers, and special characters.
@@ -88,6 +102,7 @@ Strength Score: Assigning a strength score to passwords and providing feedback t
 Password Policy: Allowing users to set their own password complexity requirements and enforcing those policies when generating or updating passwords.
 
 4. Password Expiry and Reminders
+   
 Enhance security by implementing password expiration policies and reminders. Users could set expiration dates for their stored passwords and receive reminders to update them.
 
 Password Expiry Policies: Allow users to specify how often passwords should expire (e.g., every 90 days).
