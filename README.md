@@ -14,6 +14,7 @@ Password Update: Change the password for a website and optionally generate a new
 
 Password Retrieval: Retrieve stored login information for a specific website and copy the password to the clipboard.
 
+
 Installation and Requirements
 
 To run this script, you need to have Python 3 installed on your system. Additionally, you'll need to install the following Python libraries:
@@ -26,17 +27,11 @@ pip install pillow pyperclip
 
 Usage
 1. Run the script using Python by executing python password_manager.py in your terminal.
-
 2. The main window of the Password Manager application will appear.
-
 3. Fill in the "Website," "Email/Username," and "Password" fields. The "Generate Password" button can be used to create a strong password.
-
 4. Click the "Add" button to save the login information for the website.
-
 5. To change the password for a website, fill in the "Website" and "Password" fields, then click the "Change Password" button.
-
 6. To retrieve a stored password, enter the website name and click the "Search" button.
-
 7. If you want to copy the password to the clipboard, click "Yes" when prompted.
 
 File Structure
