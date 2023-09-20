@@ -4,6 +4,7 @@ Overview
 
 This Python script provides a simple graphical user interface (GUI) for managing passwords. It allows users to store, update, and retrieve login information for various websites and services securely. The script uses the tkinter library for the GUI, json for data storage, and pyperclip for copying passwords to the clipboard.
 
+
 Features
 
 Password Generation: You can generate strong and random passwords with the click of a button.
@@ -25,6 +26,7 @@ You can install these dependencies using pip:
 
 pip install pillow pyperclip
 
+
 Usage
 1. Run the script using Python by executing python password_manager.py in your terminal.
 2. The main window of the Password Manager application will appear.
@@ -33,6 +35,7 @@ Usage
 5. To change the password for a website, fill in the "Website" and "Password" fields, then click the "Change Password" button.
 6. To retrieve a stored password, enter the website name and click the "Search" button.
 7. If you want to copy the password to the clipboard, click "Yes" when prompted.
+
 
 File Structure
 
@@ -44,18 +47,22 @@ RPM.ico: An icon file for the application window.
 
 logo.png: A logo image displayed in the GUI.
 
+
 Notes
 Ensure that you keep the data.json file in the same directory as the script to store and retrieve passwords.
 
 The application's icon (RPM.ico) and logo (logo.png) should also be in the script's directory.
 
+
 Author
 This Password Manager script was created by Rhett Davis.
+
 
 Disclaimer
 This Password Manager is a simple tool intended for personal use. It is not intended for managing critical or highly sensitive passwords. Use it at your own risk and consider using dedicated password management software for more robust security.
 
 Feel free to customize and enhance this script as needed for your personal requirements.
+
 
 Future Features (Planned Enhancements)
 1. Encryption
