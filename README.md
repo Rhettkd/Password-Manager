@@ -15,7 +15,7 @@
 
 
 ## Overview
-Rhett's Password Manager is a Python-based application with a user-friendly graphical interface for managing passwords securely and efficiently. Initially designed with tkinter, the GUI will be upgraded to Kivy for enhanced performance and aesthetics on 1/9/24.
+Rhett's Password Manager is a Python-based application with a user-friendly graphical interface for managing passwords securely and efficiently. Initially designed with tkinter, the GUI will be upgraded to Kivy for enhanced performance and aesthetics. 
 
 ## Features
 - **Password Generation**: Generate strong, random passwords with ease.
