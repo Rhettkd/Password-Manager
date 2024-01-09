@@ -22,6 +22,7 @@ Rhett's Password Manager is a Python-based application with a user-friendly grap
 - **Password Storage**: Securely store login details in `data.json`.
 - **Password Update**: Easily update passwords.
 - **Password Retrieval**: Quickly retrieve and copy passwords to the clipboard.
+- **File Seperation**: Making it so the whole program isnt on one file. 
 
 ## Installation and Requirements
 - Python 3
