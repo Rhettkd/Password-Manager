@@ -12,9 +12,7 @@
 8. [Future Features](#future-features)
 9. [Contributing](#contributing)
 10. [License](#license)
-11. [Contact](#contact)
-12. [Acknowledgments](#acknowledgments)
-13. [FAQs](#faqs)
+
 
 ## Overview
 Rhett's Password Manager is a Python-based application with a user-friendly graphical interface for managing passwords securely and efficiently. Initially designed with tkinter, the GUI will be upgraded to Kivy for enhanced performance and aesthetics on 1/9/24.
